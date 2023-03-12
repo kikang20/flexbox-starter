@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/wow.png") center no-repeat;
+    background-size: cover;
+    font-size: 1em;
+}
+
+
+
+@media screen and (min-width: 786px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+ 
+@media screen and (min-width: 1200px) {
+  h1 {
+    font-size: 4em;
+  }
+}
